@@ -9,8 +9,8 @@
 import Foundation
 
 class Question {
-    private let questionText: String
-    private let answer: Bool
+     let questionText: String
+     let answer: Bool
     
     init(text: String, correctAnswer: Bool) {
         questionText = text
